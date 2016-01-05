@@ -2,6 +2,8 @@
 
 ![Preview](http://i.imgur.com/Hftcndi.gif)
 
+[Demo page here](http://htmlpreview.github.io/?https://github.com/arthurcamara1/singleElementLoaders/blob/master/index.html)
+
 ##How to use it
 
 Just add the CSS to the `head` of the page:
