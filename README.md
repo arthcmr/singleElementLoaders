@@ -24,10 +24,10 @@ and use one of the following classes:
 If you prefer to change the source code in Sass, just play arround with the following variables:
 
 ```sass
-$bar-width: 4px
-$bar-height: 20px
-$bar-color: #00B285
-$bar-radius: 2px
+$bar-width  : 4px
+$bar-height : 20px
+$bar-color  : #00B285
+$bar-radius : 2px
 ```
 
 ##Development
