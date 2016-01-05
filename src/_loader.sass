@@ -1,0 +1,28 @@
+/* ============================ */
+/* LOADER GENERAL               */
+/* ============================ */
+
+%bar
+  width: $bar-width
+  height: $bar-height
+  background-color: $bar-color
+  border-radius: $bar-radius
+
+.loader
+  @extend %bar
+  position: relative
+  display: inline-block
+
+  &::before,
+  &::after
+    @extend %bar
+    position: absolute
+    top: 0px
+    display: block
+    content: ""
+  
+  &::before
+    left: -1 * ($bar-width + $bar-width/2)
+  
+  &::after
+    left: $bar-width + $bar-width/2

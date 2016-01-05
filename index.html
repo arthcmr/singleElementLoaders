@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link href="loaders.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <title>Single element loaders</title>
+  
+  <style type="text/css">
+    body {
+      background-color: white;
+      font-family: "Lato", Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      color: #666;
+    }
+
+    h2, a {
+      font-size: 0.8em;
+      color: #00B285;
+    }
+
+    pre {
+      color: #aaa;
+      padding-bottom: 10px;
+    }
+
+    .loaders {
+      margin: 60px auto;
+    }
+    .loaders .row {
+      height: 80px;
+      padding: 10px 0;
+    }
+
+    .btns {
+      margin: 40px auto;
+    }
+
+    .btn {
+      display: inline-block;
+      -webkit-border-radius: 3;
+      -moz-border-radius: 3;
+      border-radius: 3px;
+      color: #ffffff;
+      background: #00B285;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      white-space: nowrap;
+      margin: 2px auto;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #00a378;
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Single element loaders</h1>
+  <h2>CSS (SASS) ONLY</h2>
+
+  <div class="btns">
+    <a href="loaders.css" target="blank" class="btn">Download CSS</a> 
+    <a href="loaders.min.css" target="blank" class="btn">Download minified CSS</a> 
+    <a href="https://github.com/arthurcamara1/singleElementLoaders" target="blank" class="btn">Github repo</a>
+  </div>
+
+  <div class="loaders">
+    <div class="row">
+      <pre>&lt;div class="loader loader--bounce-bottom"&gt;&lt;/div&gt;</pre>
+      <div class="loader loader--bounce-bottom"></div>
+    </div>
+    <div class="row">
+      <pre>&lt;div class="loader loader--bounce-top"&gt;&lt;/div&gt;</pre>
+      <div class="loader loader--bounce-top"></div>
+    </div>
+    <div class="row">
+      <pre>&lt;div class="loader loader--bounce-middle"&gt;&lt;/div&gt;</pre>
+      <div class="loader loader--bounce-middle"></div>
+    </div>
+    <div class="row">
+      <pre>&lt;div class="loader loader--blink"&gt;&lt;/div&gt;</pre>
+      <div class="loader loader--blink"></div>
+    </div>
+  </div>
+</body>
+</html>
